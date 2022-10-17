@@ -1,0 +1,100 @@
+.container {
+  height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.back_text {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: 800;
+  z-index: -1;
+  font-size: 30rem;
+  top: -30px;
+  left: -55%;
+  transform: translateX(50%);
+  color: #fff;
+}
+
+.bg_text{
+  position: absolute;
+  font-weight: 800;
+  z-index: -1;
+  font-size: 20rem;
+  top: 30vh;
+  right: 7%;
+  transform: translateX(50%) rotate(90deg);
+  color: rgb(188, 188, 188);
+}
+
+.main_content {
+  background: #000;
+  height: 60vh;
+  width: 1400px;
+  margin: 0 auto;
+  left: 5rem;
+  margin-top: 20rem;
+  padding: 2rem;
+  gap: 1rem;
+  display: grid;
+  grid-template-areas: "tiger title title"
+    "tiger doggo text_content"
+    "tortoise doggo text_content";
+  grid-template-columns: 1fr 1fr 3fr;
+  grid-template-rows: 1fr 2fr .9fr;
+  position: relative;
+
+}
+
+
+.title {
+  text-transform: uppercase;
+  grid-area: title;
+  font-size: 5rem;
+  font-weight: 300;
+  margin: 0;
+  // line-height: 4rem;
+}
+
+.tiger {
+  grid-area: tiger;
+}
+
+.doggo {
+  grid-area: doggo;
+}
+
+.tortoise {
+  grid-area: tortoise;
+}
+
+.content {
+  grid-area: text_content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.shop_link {
+  text-transform: uppercase;
+}
+
+.tiger,
+.doggo,
+.tortoise {
+  position: relative;
+}
+
+.text_content {
+  font-size: 1.4rem;
+}
+
+
+.link_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
