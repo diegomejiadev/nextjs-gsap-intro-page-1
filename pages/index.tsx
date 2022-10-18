@@ -91,6 +91,14 @@ const HomePage: NextPage = () => {
         />
         <meta name="robots" content="follow" />
         <meta name="robots" content="index" />
+        <meta
+          name="og:url"
+          content="https://nextjs-gsap-intro-page-1.vercel.app/"
+        />
+        <meta
+          name="og:image"
+          content="https://res.cloudinary.com/purplesoda/image/upload/v1666053526/Personal%20Project/Nextjs%20Gsap%20Intro%201/doggo_preview.jpg"
+        />
       </Head>
       <div className={styles.container}>
         <div ref={text1} className={styles.back_text}>
