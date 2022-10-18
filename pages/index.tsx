@@ -107,6 +107,10 @@ const HomePage: NextPage = () => {
           name="og:description"
           content="Intro website using NextJs and GSAP, intro for personal portfolio, hope you enjoy watching my website"
         />
+           <meta
+          name="og:image"
+          content="https://res.cloudinary.com/purplesoda/image/upload/v1666053526/Personal%20Project/Nextjs%20Gsap%20Intro%201/doggo_preview.jpg"
+        />
         <meta
           name="og:image:secure_url"
           content="https://res.cloudinary.com/purplesoda/image/upload/v1666053526/Personal%20Project/Nextjs%20Gsap%20Intro%201/doggo_preview.jpg"
