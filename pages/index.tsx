@@ -115,6 +115,10 @@ const HomePage: NextPage = () => {
           name="og:image:secure_url"
           content="https://res.cloudinary.com/purplesoda/image/upload/v1666053526/Personal%20Project/Nextjs%20Gsap%20Intro%201/doggo_preview.jpg"
         />
+            <meta
+          name="og:image:alt"
+          content="A little dog preview image for my page"
+        />
         <meta property="og:image:width" content="640" />
         <meta property="og:image:height" content="853" />
         <meta property="og:image:type" content="image/jpeg" />
