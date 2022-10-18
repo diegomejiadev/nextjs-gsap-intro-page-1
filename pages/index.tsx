@@ -95,10 +95,25 @@ const HomePage: NextPage = () => {
           name="og:url"
           content="https://nextjs-gsap-intro-page-1.vercel.app/"
         />
+        <meta name="og:title" content="NextJs with GSAP using Typescript" />
+        <meta property="og:type" content="website" />
         <meta
-          name="og:image"
+          property="og:site_name"
+          content="NextJs with GSAP using Typescript"
+        />
+        <meta property="og:locale" content="es_ES" />
+        <meta property="og:updated_time" content="1666053922060" />
+        <meta
+          name="og:description"
+          content="Intro website using NextJs and GSAP, intro for personal portfolio, hope you enjoy watching my website"
+        />
+        <meta
+          name="og:image:secure_url"
           content="https://res.cloudinary.com/purplesoda/image/upload/v1666053526/Personal%20Project/Nextjs%20Gsap%20Intro%201/doggo_preview.jpg"
         />
+        <meta property="og:image:width" content="640" />
+        <meta property="og:image:height" content="853" />
+        <meta property="og:image:type" content="image/jpeg" />
       </Head>
       <div className={styles.container}>
         <div ref={text1} className={styles.back_text}>
